@@ -506,8 +506,8 @@ function App() {
         </div>
 
         <footer className="site-footer">
-          Craedo y Desarrolado por Karol Cortes, Lian Orozco, Marcos Rojano,
-          Rafael Rodelo
+          &copy; Craedo y Desarrolado por Karol Cortes, Lian Orozco, Marcos
+          Rojano, Rafael Rodelo
         </footer>
       </div>
     </HashRouter>
