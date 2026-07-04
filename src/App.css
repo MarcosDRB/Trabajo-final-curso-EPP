@@ -289,6 +289,17 @@ button:disabled {
   font-size: 0.9rem;
 }
 
+.site-footer {
+  margin-top: 1rem;
+  padding: 0.95rem 1.2rem;
+  border-radius: 16px;
+  background: #14213d;
+  color: #f1f5f9;
+  text-align: center;
+  font-size: 0.95rem;
+  box-shadow: 0 10px 24px rgba(20, 33, 61, 0.18);
+}
+
 @media (max-width: 950px) {
   .layout {
     grid-template-columns: 1fr;
