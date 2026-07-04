@@ -506,7 +506,7 @@ function App() {
         </div>
 
         <footer className="site-footer">
-          &copy; Craedo y Desarrolado por Karol Cortes, Lian Orozco, Marcos
+          &copy; Creado y Desarrollado por Karol Cortes, Lian Orozco, Marcos
           Rojano, Rafael Rodelo
         </footer>
       </div>
