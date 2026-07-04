@@ -1,0 +1,320 @@
+.platform {
+  width: min(1180px, calc(100% - 2rem));
+  margin: 1rem auto 2rem;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 1rem;
+  padding: 1.1rem 1.25rem;
+  border-radius: 20px;
+  background: linear-gradient(145deg, #003049, #1d3557 65%, #457b9d);
+  color: #f7fbff;
+  box-shadow: 0 16px 40px rgba(16, 35, 58, 0.35);
+}
+
+.topbar h1 {
+  font-size: clamp(1.2rem, 2.2vw, 1.8rem);
+  line-height: 1.2;
+}
+
+.eyebrow {
+  margin-bottom: 0.35rem;
+  color: #ffd166;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.main-nav {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #e3f1ff;
+  font-weight: 600;
+  padding: 0.45rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.main-nav a.active {
+  background: #ffd166;
+  color: #2a1a00;
+  border-color: #ffd166;
+}
+
+.layout {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(260px, 1fr);
+  gap: 1rem;
+}
+
+.content-area {
+  min-width: 0;
+}
+
+.card {
+  background: #fffef8;
+  border: 1px solid #e7ddce;
+  border-radius: 18px;
+  padding: 1.1rem;
+  box-shadow: 0 12px 28px rgba(77, 65, 49, 0.1);
+}
+
+.card h2 {
+  color: #14213d;
+  margin-bottom: 0.65rem;
+}
+
+.card p {
+  color: #3f4c5e;
+}
+
+.field {
+  margin-top: 0.9rem;
+  display: grid;
+  gap: 0.4rem;
+  font-weight: 600;
+}
+
+.field input,
+.text-answer {
+  border: 1px solid #c9bba6;
+  border-radius: 10px;
+  padding: 0.55rem 0.65rem;
+  font-size: 1rem;
+}
+
+.status-grid {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.55rem;
+}
+
+.status-grid article {
+  border-radius: 12px;
+  background: #f4efe2;
+  padding: 0.7rem;
+}
+
+.status-grid h3 {
+  font-size: 0.9rem;
+}
+
+.cta,
+button {
+  margin-top: 0.85rem;
+  border: none;
+  border-radius: 10px;
+  padding: 0.55rem 0.85rem;
+  font-weight: 700;
+  background: #0b6e4f;
+  color: #e9fff8;
+  cursor: pointer;
+}
+
+.cta {
+  display: inline-block;
+  text-decoration: none;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.lesson-image {
+  margin-top: 0.8rem;
+  width: 100%;
+  max-height: 260px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.lesson-list {
+  margin: 0.9rem 0;
+  display: grid;
+  gap: 0.45rem;
+}
+
+.video-link {
+  color: #135792;
+  font-weight: 700;
+}
+
+.lesson-actions {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.exercise {
+  margin-top: 1rem;
+  border-top: 1px dashed #d7c9b1;
+  padding-top: 0.9rem;
+}
+
+.options {
+  margin-top: 0.65rem;
+  display: grid;
+  gap: 0.45rem;
+}
+
+.options label {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.inline-options {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.inline-options button {
+  margin-top: 0;
+  background: #e4ecf4;
+  color: #16324f;
+}
+
+.inline-options .active {
+  background: #f77f00;
+  color: #fff;
+}
+
+.ok,
+.error {
+  margin-top: 0.8rem;
+  font-weight: 700;
+}
+
+.hint {
+  margin-top: 0.6rem;
+  color: #5f6f82;
+  font-size: 0.92rem;
+}
+
+.ok {
+  color: #176f4a;
+}
+
+.error {
+  color: #b02a37;
+}
+
+.sequence-nav {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.question-list {
+  display: grid;
+  gap: 1rem;
+  padding-left: 1.2rem;
+}
+
+.question-list li {
+  border: 1px solid #e5d9c8;
+  border-radius: 12px;
+  padding: 0.8rem;
+  background: #fff;
+}
+
+.question-list h3 {
+  font-size: 1rem;
+}
+
+.result-box {
+  margin-top: 1rem;
+  border: 1px solid #c4d8c9;
+  border-radius: 12px;
+  background: #f3fff7;
+  padding: 0.8rem;
+}
+
+.result-box h4 {
+  margin: 0.7rem 0 0.4rem;
+}
+
+.progress-panel {
+  align-self: start;
+  position: sticky;
+  top: 1rem;
+  border-radius: 16px;
+  background: #102542;
+  color: #e9f3ff;
+  padding: 1rem;
+}
+
+.progress-panel h2 {
+  margin-bottom: 0.6rem;
+}
+
+.meter {
+  margin: 0.45rem 0 0.65rem;
+  width: 100%;
+  height: 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+}
+
+.meter span {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, #f77f00, #ffd166);
+}
+
+.aside-links {
+  margin-top: 0.75rem;
+  display: grid;
+  gap: 0.3rem;
+}
+
+.aside-links a {
+  color: #bfe0ff;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 950px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+
+  .progress-panel {
+    position: static;
+  }
+}
+
+@media (max-width: 680px) {
+  .platform {
+    width: calc(100% - 1rem);
+    margin: 0.5rem auto 1rem;
+  }
+
+  .topbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .status-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .inline-options {
+    grid-template-columns: 1fr;
+  }
+}
