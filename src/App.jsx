@@ -28,7 +28,8 @@ const LESSONS = [
     imageAlt: 'Trabajador con casco de seguridad',
     imageUrl:
       'https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?auto=format&fit=crop&w=900&q=80',
-    videoUrl: 'https://www.youtube.com/watch?v=hI8jEtnd4_8',
+    videoUrl:
+      'https://www.youtube.com/results?search_query=capacitacion+casco+industrial+epp',
     exercise: {
       type: 'single',
       question: 'Que accion es correcta antes de usar el casco?',
@@ -60,7 +61,8 @@ const LESSONS = [
     imageAlt: 'Persona usando gafas y pantalla facial',
     imageUrl:
       'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=900&q=80',
-    videoUrl: 'https://www.youtube.com/watch?v=JY8GfQ2z9YQ',
+    videoUrl:
+      'https://www.youtube.com/results?search_query=proteccion+ocular+y+facial+epp',
     exercise: {
       type: 'boolean',
       question:
@@ -88,7 +90,8 @@ const LESSONS = [
     imageAlt: 'Trabajadora usando respirador',
     imageUrl:
       'https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?auto=format&fit=crop&w=900&q=80',
-    videoUrl: 'https://www.youtube.com/watch?v=4j2I7J4J9tQ',
+    videoUrl:
+      'https://www.youtube.com/results?search_query=proteccion+respiratoria+epp+capacitacion',
     exercise: {
       type: 'text',
       question: 'Completa: El respirador debe hacer buen ______ en el rostro.',
@@ -115,7 +118,8 @@ const LESSONS = [
     imageAlt: 'Guantes y botas de seguridad',
     imageUrl:
       'https://images.unsplash.com/photo-1618477247222-acbdb0e159b3?auto=format&fit=crop&w=900&q=80',
-    videoUrl: 'https://www.youtube.com/watch?v=nVfL7gW9u3w',
+    videoUrl:
+      'https://www.youtube.com/results?search_query=guantes+y+botas+de+seguridad+epp',
     exercise: {
       type: 'single',
       question: 'Que criterio define la eleccion del guante?',
@@ -147,7 +151,8 @@ const LESSONS = [
     imageAlt: 'Operario usando orejeras de proteccion',
     imageUrl:
       'https://images.unsplash.com/photo-1581092583537-20d51b4b4f1b?auto=format&fit=crop&w=900&q=80',
-    videoUrl: 'https://www.youtube.com/watch?v=8hL2M4x5vHQ',
+    videoUrl:
+      'https://www.youtube.com/results?search_query=proteccion+auditiva+epp+capacitacion',
     exercise: {
       type: 'boolean',
       question: 'Verdadero o falso: La proteccion auditiva es opcional en zona ruidosa.',
@@ -174,7 +179,8 @@ const LESSONS = [
     imageAlt: 'Trabajador con chaleco reflectivo',
     imageUrl:
       'https://images.unsplash.com/photo-1590490359854-dfba19688d70?auto=format&fit=crop&w=900&q=80',
-    videoUrl: 'https://www.youtube.com/watch?v=E0xgQkWqv8s',
+    videoUrl:
+      'https://www.youtube.com/results?search_query=chaleco+reflectivo+alta+visibilidad+epp',
     exercise: {
       type: 'single',
       question: 'La funcion principal del chaleco reflectivo es...',
@@ -202,7 +208,8 @@ const LESSONS = [
     imageAlt: 'Tecnico con arnes de seguridad',
     imageUrl:
       'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=900&q=80',
-    videoUrl: 'https://www.youtube.com/watch?v=YeM6H6vV2Qw',
+    videoUrl:
+      'https://www.youtube.com/results?search_query=trabajo+en+alturas+arnes+seguridad+capacitacion',
     exercise: {
       type: 'boolean',
       question: 'Verdadero o falso: Cualquier punto metalico sirve como anclaje.',
@@ -229,7 +236,8 @@ const LESSONS = [
     imageAlt: 'Zona de almacenamiento de equipos de seguridad',
     imageUrl:
       'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=900&q=80',
-    videoUrl: 'https://www.youtube.com/watch?v=eu4Yv8ncl5k',
+    videoUrl:
+      'https://www.youtube.com/results?search_query=mantenimiento+y+almacenamiento+de+epp',
     exercise: {
       type: 'text',
       question: 'Completa: Un EPP danado debe ser ______ inmediatamente.',
@@ -579,7 +587,7 @@ function LessonPage({
       </ul>
 
       <a href={lesson.videoUrl} target="_blank" rel="noreferrer" className="video-link">
-        Ver video de apoyo
+        Ver videos de apoyo
       </a>
 
       <div className="lesson-actions">
