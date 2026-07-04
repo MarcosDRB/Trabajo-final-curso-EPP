@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import {
-  BrowserRouter,
+  HashRouter,
   Link,
   NavLink,
   Navigate,
@@ -414,7 +414,7 @@ function App() {
   }
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="platform">
         <header className="topbar">
           <div>
@@ -505,7 +505,7 @@ function App() {
           </aside>
         </div>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
